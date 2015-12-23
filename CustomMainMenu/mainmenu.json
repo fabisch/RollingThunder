@@ -1,0 +1,240 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "mainmenu:modpack.png",
+            "posX" : -28,
+            "posY" : -28,
+            "width" : 270,
+            "height" : 85,
+			"imageWidth" : 540,
+			"imageHeight" : 170,
+            "alignment" : "center"
+		},
+	
+		"buttonbg":
+		{
+			"image" : "mainmenu:blackbg.png",
+			"posX" : -211,
+			"posY" : 0,
+			"width" : 200,
+			"height" : 2000,
+			"imageWidth" : 200,
+			"imageHeight" : 2000,
+			"alignment" : "top_center"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -200,
+            "posY" : -37,
+            "width" : 154,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:button.png",
+			"normalTextColor" : 1952397,
+			"hoverTextColor" : 196355,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -200,
+            "posY" : -12,
+            "width" : 154,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:button.png",
+			"normalTextColor" : 1952397,
+			"hoverTextColor" : 196355,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -200,
+            "posY" : 13,
+            "width" : 154,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:button.png",
+			"normalTextColor" : 1952397,
+			"hoverTextColor" : 196355,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+		
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -200,
+            "posY" : 38,
+            "width" : 154,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:button.png",
+			"normalTextColor" : 1952397,
+			"hoverTextColor" : 196355,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+        "language":
+        {
+            "text" : "",
+            "posX" : -42,
+            "posY" : -37,
+            "width" : 20,
+            "height" : 20,
+			"tooltip": "Language",
+			"alignment" : "center",
+			"imageWidth": "40",
+			"imageHeight": "40",
+			"texture" : "mainmenu:lang.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		
+        "options":
+        {
+            "text" : "",
+            "posX" : -42,
+            "posY" : -12,
+            "width" : 20,
+            "height" : 20,
+			"tooltip": "Options",
+			"alignment" : "center",
+			"imageWidth": "40",
+			"imageHeight": "40",
+			"texture" : "mainmenu:options.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+        "St0rm Site":
+        {
+            "text" : "",
+            "posX" : -42,
+            "posY" : 13,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+			"tooltip": "St0rm.Net Site",
+			"texture" : "mainmenu:web.png",
+			"imageWidth": "40",
+			"imageHeight": "40",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "http://www.st0rm.net/"
+            }
+        },
+	
+		"changelog":
+        {
+            "text" : "",
+            "posX" : -42,
+            "posY" : 38,
+			"tooltip": "Rolling Thunder Changelog",
+            "width" : 20,
+			"imageWidth": "40",
+			"imageHeight": "40",
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:web.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://goo.gl/CImlcq"
+            }
+        },
+		
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth": "40",
+			"imageHeight": "40",
+			"alignment" : "top_right",
+            "texture" : "mainmenu:reload.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -108,
+            "posY" : -15,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+		"forge":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 5,
+            "posY" : -25,
+            "color" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsinfo":{
+			"text" : "#modsloaded# Mods Loaded, #modsactive# Mods Active",
+            "posX" : 5,
+            "posY" : -15,
+            "color" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modpack":{
+			"text" : "Rolling Thunder",
+            "posX" : 5,
+            "posY" : -35,
+            "color" : -1,
+            "alignment" : "bottom_left"
+		}
+    },
+    
+    "other":
+    {
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
